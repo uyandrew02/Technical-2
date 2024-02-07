@@ -1,0 +1,65 @@
+body {
+    margin: 100;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.button-container button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, border-color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+    border-color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.button-container button:active {
+    background-color: #004299;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(1px);
+}
+
+#monday {
+    background-color: violet;
+}
+#tuesday {
+    background-color: pink;
+}
+#wednesday {
+    background-color: blue;
+}
+#thursday {
+    background-color: green;
+}
+#friday {
+    background-color: yellow;
+    color: black;
+}
+#saturday {
+    background-color: orange;
+}
+#sunday {
+    background-color: red;
+}
+
+
